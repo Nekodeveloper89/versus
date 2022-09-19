@@ -242,3 +242,10 @@ body {
         width: 390px;
     }
 }
+
+@media screen and (max-width: 350px) {
+    .images_block {
+        width: 350px;
+    }
+    
+}

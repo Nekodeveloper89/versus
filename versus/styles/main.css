@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 2160px) {
+
+.header_block {
+    background: url(../images/IMAGE.jpg) no-repeat;
+    background-size: cover;
+    height: 540px;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 43px;
+    margin-right: 565px;
+    margin-left: auto;
+}
+
+.nav {
+    margin-right: auto;
+    margin-top: 48px;
+}
+
+.nav_button {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 17px; 
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #999999;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.nav_button:hover {
+    color: #00D6B4;
+}
+
+.banner {
+    margin-top: 153px;
+}
+
+.hero {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 465px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main_button {
+    display: block;
+    width: 137px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00D6B4;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 26px;
+    padding-right: 26px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 39px;
+    border: 1px solid #00D6B4;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+.main_button:hover {
+    background: #00D6B4;
+    color: #222222;
+    border: 1px solid #222222;
+    transition: 200ms;
+}
+
+body {
+    background: #222222;
+}
+
+.lable {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images_block {
+    margin-top: 11px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 970px;
+}
+
+.images_string {
+    display: flex;
+}
+
+.image {
+    margin-right: 20px;
+    margin-top: 22px;
+    display: block;
+}
+
+.footer_block {
+    margin-top: 101px;
+    margin-bottom: 36px;
+}
+
+.footer_lable {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;  
+    text-align: center;
+    text-transform: uppercase;
+    color: #C2C2C2;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #999999;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+
+@media screen and (max-width: 976px) {
+    .images_string {
+        display: block;
+    }
+
+    .logo {
+        margin-right: 150px;
+    }
+
+    .images_block {
+        width: 690px;
+    }
+
+    .image {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 714px) {
+    .images_block {
+        width: 390px;
+    }
+
+}
+
+@media screen and (max-width: 492px) {
+    .hero {
+        width: 340px;
+        font-size: 34px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .logo {
+        margin-right: 90px;
+    }
+
+    .hero {
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .menu {
+        display: flex;
+        width: 390px;
+    }
+
+    .main_button {
+        display: block;
+        width: 127px;
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #00D6B4;
+        text-decoration: none;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 39px;
+    }
+
+    .nav_button {
+       display: block;
+    }
+
+    .images_block {
+        width: 390px;
+    }
+}
